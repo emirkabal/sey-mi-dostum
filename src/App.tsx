@@ -108,6 +108,7 @@ function App() {
               <div className="h-auto w-full sm:w-1/2">
                 <video
                   className="w-full h-full object-cover"
+                  playsInline
                   ref={videoRef}
                   src={video}
                 ></video>
